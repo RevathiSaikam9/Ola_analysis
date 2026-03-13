@@ -3,12 +3,14 @@
 ## Project Overview
 
 This project analyzes OLA ride booking data to understand ride demand, customer behavior, cancellations, and revenue trends.
-The goal is to extract insights that help improve ride efficiency and business decision-making.
+The goal is to extract meaningful insights that help improve ride efficiency and support data-driven decision-making.
 
 ## Tools Used
 
 * SQL – Data querying and analysis
 * Excel – Data cleaning and preprocessing
+* Python – Exploratory Data Analysis (EDA)
+* Jupyter Notebook – Data exploration and visualization
 * Power BI – Dashboard creation and visualization
 
 ## Dataset
@@ -24,6 +26,27 @@ The dataset contains ride booking details such as:
 * Drop Location
 * Fare Amount
 
+## Exploratory Data Analysis (EDA)
+
+EDA was performed using Python in Jupyter Notebook to understand the dataset and identify patterns.
+
+Key EDA steps include:
+
+* Checking missing values
+* Data cleaning and preprocessing
+* Analyzing ride booking trends
+* Distribution of ride fares
+* Ride status analysis (Completed / Cancelled)
+* Location-wise ride demand
+* Peak booking hours visualization
+
+Python libraries used:
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
 ## Key Business Questions
 
 * What are the peak booking hours?
@@ -31,16 +54,6 @@ The dataset contains ride booking details such as:
 * What is the cancellation rate of rides?
 * Which ride types generate the most revenue?
 * How does ride demand change over time?
-
-## Data Analysis
-
-The dataset was analyzed using SQL queries to calculate:
-
-* Total number of rides
-* Ride cancellation percentage
-* Average ride fare
-* Peak demand hours
-* Location-wise ride demand
 
 ## Dashboard
 
@@ -55,7 +68,7 @@ An interactive dashboard was created using Power BI to visualize:
 ## Key Insights
 
 * Peak ride bookings occur during morning and evening commute hours.
-* Some locations generate significantly higher ride demand.
+* Certain locations generate significantly higher ride demand.
 * A noticeable percentage of rides are cancelled by either drivers or customers.
 * Revenue varies depending on ride type and time of day.
 
@@ -69,6 +82,9 @@ OLA-Ride-Analysis
 ├── SQL
 │   ola_queries.sql
 │
+├── EDA
+│   ola_eda.ipynb
+│
 ├── Dashboard
 │   dashboard.png
 │
@@ -77,4 +93,4 @@ OLA-Ride-Analysis
 ## Author
 
 Revathi Saikam
-Aspiring Data Analyst skilled in SQL, Excel, Power BI, and Python.
+Aspiring Data Analyst skilled in SQL, Excel, Power BI, Python, and Data Visualization.
